@@ -1,7 +1,7 @@
 import sys
 
 def getKey(jar):
-    group_and_artifact = "org.robolectric\:android-all\:"
+    group_and_artifact = "org.robolectric\:android-all-instrumented\:"
     # Given "external/org_robolectric_android_all_4_1_2_r1_robolectric_r1/jar/android-all-4.1.2_r1-robolectric-r1.jar"
     # We want "4.1.2_r1-robolectric-r1.jar"
     version = jar.split("android-all-")[1][:-4]
